@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>STUDY TRON 📚😺</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="shortcut icon" href="img/lgcoin.png">
+</head>
+<body>
+	<div class="opac">
+		<div id="nav">
+			<a href="#" onclick="slowScroll('#main')"><img src="img/main.gif"></a>
+			<a href="#" onclick="slowScroll('#about')"><img src="img/about.gif"></a>
+			<a href="#" onclick="slowScroll('#token')"><img src="img/token.gif"></a>
+		</div>
+		<div class="trans"></div>
+		<div id="main">
+		<!-- <img src="img/run.gif"> -->
+		</div>
+		<div id="about">
+			<div class="tag"><img src="img/about.gif"></div>
+			<div class="content">
+				<div class="text">
+					<p>Welcome to $STRON !
+The most memeable memecoin in existence. The dogs,cats and frogs have had their day, it’s time for dumb cat to take reign. $STRON IS BIG!</p>
+				</div>
+				<div class="cimg">
+					<img src="img/base.png">
+				</div>
+			</div>
+		</div>
+		<div id="token">
+			<div class="tag"><img src="img/token.gif"></div>
+			<div class="tokin">
+				<div class="swim"><img src="img/books.png"></div>
+				<div class="tcont">
+					<div class="ttop">
+						<div class="loc sup">
+							<div class="storyh">
+							<p>In the bustling digital realm of meme cryptocurrencies, there lived a Lazy Cat named Harold. Unbeknownst to him, Harold possessed a unique talent for stumbling upon extraordinary opportunities. One fateful day, as he floated lazily along the riverbank, he overheard a group of tech-savvy monkeys discussing the latest craze: meme cryptocurrencies.</p>
+							</div>
+							<img src="img/more.gif">
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="socials">
+			<div class="soclog"><img src="img/soc.gif"></div>
+			<div class="content">
+				<div class="soc">
+					<a href="https://t.me/hippowifhat" target="_blank"><img src="img/tg.gif" class="tg"></a>
+					<a href="https://twitter.com/hipowifhat" target="_blank"><img src="img/tw.gif" class="tw"></a>
+				</div>
+				<div class="bird">
+					<img src="img/cnt.png">
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.html"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var body = document.body;
+    var clicked = false;
+    
+    body.addEventListener('click', function () {
+        if (clicked) {
+            // Cambia el cursor a la imagen original al hacer clic nuevamente
+            document.body.style.cursor = 'url("img/cursor.png"), auto';
+            clicked = false;
+        } else {
+            // Cambia el cursor a la otra imagen al hacer clic por primera vez
+            document.body.style.cursor = 'url("img/cursor2.png"), auto';
+            clicked = true;
+        }
+    });
+});
+
+
+  </script>
+
+</body>
+
+
+</html>
